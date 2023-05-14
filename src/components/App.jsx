@@ -7,10 +7,10 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
       }}
     >
-      React marvel app template
+      React marvel app template from team 6
     </div>
   );
 };
