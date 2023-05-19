@@ -1,7 +1,8 @@
 import React, { createRef } from 'react';
 import { createPortal } from 'react-dom';
 import './Curtain.scss';
-import { Box } from '@chakra-ui/react';
+import { Box, Image } from '@chakra-ui/react';
+import Shield from 'images/shield.svg';
 const MODAL_ROOT = document.querySelector('#modal-root');
 
 export const Curtain = () => {
@@ -29,6 +30,7 @@ export const Curtain = () => {
         zIndex="10"
         className="curtainContainer curtainContainer--left"
       ></Box>
+      <Image src={Shield} alt="Shield" className="Shield"  id='Shield'/>
       <Box
         w="50vw"
         h="100vh"

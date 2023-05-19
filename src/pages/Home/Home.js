@@ -4,8 +4,12 @@ import { WelcomeBtn, Logo, Container, Title, DescrGallery } from 'components';
 import { Box, Text } from '@chakra-ui/react';
 import { BsFillSuitHeartFill } from 'react-icons/bs';
 import { closeCurtains, openCurtains } from 'services/animateCurtains';
+import { useDispatch } from 'react-redux';
+import { fetchCards } from 'redux/cards/operations';
 
 export const Home = ({ setHomePage, setSharedLay }) => {
+  const dispatch = useDispatch();
+
   return (
     <Box h="100vh" w="100vw" className="descrPage">
       <Box as={Container} display="flex" flexDirection="column">
@@ -49,7 +53,7 @@ export const Home = ({ setHomePage, setSharedLay }) => {
               setHomePage={setHomePage}
               onClick={() => {
                 closeCurtains();
-
+                dispatch(fetchCards());
                 setTimeout(() => {
                   setHomePage(false);
                   setSharedLay(true);
