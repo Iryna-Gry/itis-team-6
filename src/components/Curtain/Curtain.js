@@ -30,7 +30,7 @@ export const Curtain = () => {
         zIndex="10"
         className="curtainContainer curtainContainer--left"
       ></Box>
-      <Image src={Shield} alt="Shield" className="Shield"  id='Shield'/>
+      <Image src={Shield} alt="Shield" className="Shield" id="Shield" />
       <Box
         w="50vw"
         h="100vh"

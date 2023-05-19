@@ -15,10 +15,10 @@ export const Home = ({ setHomePage, setSharedLay }) => {
       <Box as={Container} display="flex" flexDirection="column">
         <Box display="flex" justifyContent="space-between" pt="20px">
           <Logo />
-          <Text color="whitesmoke">
+          <Text color="white.700">
             with
             <BsFillSuitHeartFill
-              fill="red"
+              fill="red.400"
               style={{
                 display: 'inline-flex',
                 marginLeft: '5px',
@@ -30,7 +30,7 @@ export const Home = ({ setHomePage, setSharedLay }) => {
         </Box>
         <Box display="flex" flexDirection="column" className="ContentBox">
           <Box
-            color="#ffd700"
+            color="yellow.700"
             textAlign="center"
             fontWeight="bold"
             maxW="650px"
