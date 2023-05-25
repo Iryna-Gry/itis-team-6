@@ -2,7 +2,12 @@ import React from 'react';
 import './Accordeon.scss';
 import { Box, Heading, Text } from '@chakra-ui/react';
 import { useCardsState } from 'hooks/useCardsState';
-import TeamItemContent from '../TeamItemContent/TeamItemContent'
+import TeamItemSmall from 'components/ChooseTeamList/TeamItemSmall/TeamItemSmall';
+import {
+  TeamBox,
+  TeamHeader,
+  TeamItemCommand,
+} from 'components/ChooseTeamList/ChooseTeamList.styled';
 
 export const Accordeon = () => {
   const { statistics } = useCardsState();
@@ -49,15 +54,14 @@ export const Accordeon = () => {
                       transform="scale(0.7)"
                       w="calc((100%-10px)/2)"
                     >
-                      <TeamItemContent teamName={"Your Team"} statisticPage={true} team={item.userTeam}/>
-                      {/*<TeamItemCommand key={item.id}>*/}
-                      {/*  <TeamHeader>Your Team</TeamHeader>*/}
-                      {/*  <TeamBox>*/}
-                      {/*    {item.userTeam.map(hero => {*/}
-                      {/*      return <TeamItemSmall key={hero.id} hero={hero} />;*/}
-                      {/*    })}*/}
-                      {/*  </TeamBox>*/}
-                      {/*</TeamItemCommand>*/}
+                      <TeamItemCommand key={item.id}>
+                        <TeamHeader>Your Team</TeamHeader>
+                        <TeamBox>
+                          {item.userTeam.map(hero => {
+                            return <TeamItemSmall key={hero.id} hero={hero} />;
+                          })}
+                        </TeamBox>
+                      </TeamItemCommand>
                       <Box className="TeamScoreFigure">
                         <p>{item.powerUserTeam} points</p>
                       </Box>
@@ -67,15 +71,14 @@ export const Accordeon = () => {
                       transform="scale(0.7)"
                       w="calc((100%-10px)/2)"
                     >
-                      <TeamItemContent teamName={"Enemy Team"} statisticPage={true} team={item.userTeam}/>
-                      {/*<TeamItemCommand key={item.id}>*/}
-                      {/*  <TeamHeader>Enemy Team</TeamHeader>*/}
-                      {/*  <TeamBox>*/}
-                      {/*    {item.enemyTeam.map(hero => {*/}
-                      {/*      return <TeamItemSmall key={hero.id} hero={hero} />;*/}
-                      {/*    })}*/}
-                      {/*  </TeamBox>*/}
-                      {/*</TeamItemCommand>*/}
+                      <TeamItemCommand key={item.id}>
+                        <TeamHeader>Enemy Team</TeamHeader>
+                        <TeamBox>
+                          {item.enemyTeam.map(hero => {
+                            return <TeamItemSmall key={hero.id} hero={hero} />;
+                          })}
+                        </TeamBox>
+                      </TeamItemCommand>
                       <Box className="TeamScoreFigure">
                         <p>{item.powerEnemyTeam} points</p>
                       </Box>

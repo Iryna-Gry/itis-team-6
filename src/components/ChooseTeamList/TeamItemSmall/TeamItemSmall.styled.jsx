@@ -1,17 +1,12 @@
 import styled from 'styled-components'
 import cardBgImg from '../../../images/card-bg.png';
 
-const cardHeight = "255px"
+const cardHeight = "255px" // todo move to chakra
 const cardWidth = "180px"
-
-const statisticWidthWrapper = '100px'
-const statisticH = '140px'
-
-
 export const ItemWrapper = styled.div`
   position: relative;
-  width: ${props => props.statisticPage && props.containerSize === '768px' ? statisticWidthWrapper  : cardWidth};
-  height: ${props => props.statisticPage  && props.containerSize === '768px' ? statisticH : cardHeight};
+  width: ${cardWidth};
+  height: ${cardHeight};
   border-radius: 15px;
 
   display: flex;
@@ -27,11 +22,8 @@ export const ItemWrapper = styled.div`
 
 export const Card = styled.div`
   position: absolute;
-  //width: 140px;
-  //height: 215px;
-
-  width: ${props => (props.statisticPage && props.containerSize === '768px') ? "80px" : "140px" } ;
-  height: ${props => (props.statisticPage && props.containerSize === '768px') ? "125px" : "215px" } ;
+  width: 140px;
+  height: 215px;
 
   display: flex;
   align-items: flex-end;
@@ -46,7 +38,7 @@ export const Card = styled.div`
 export const HeroNameSmall = styled.h2`
   color: red;
   text-align: center;
-  font-size:${props => (props.statisticPage && props.containerSize === '768px') ? '20px' : "25px"}  ;
+  font-size: 24px;
   font-family: 'Luckiest Guy';
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
