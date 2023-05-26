@@ -15,6 +15,7 @@ import { useDispatch } from 'react-redux';
 import { fetchCards } from 'redux/cards/operations';
 import { useNavigate } from 'react-router-dom';
 import Loader from 'components/Loader2';
+import SpiderThreeJs from '../../components/threeJsTest/SpiderThreeJs';
 
 export const Home = ({ setSharedLay }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -71,12 +72,24 @@ export const Home = ({ setSharedLay }) => {
               mx="auto"
             >
               <Title>Superhero Power App</Title>
-              <Text fontSize="20px" fontWeight="normal">
-                the ultimate tool for assessing the strength of your superhero
-                team!
-              </Text>
+              {/*<Text fontSize="20px" fontWeight="normal">*/}
+              {/*  the ultimate tool for assessing the strength of your superhero*/}
+              {/*  team!*/}
+              {/*</Text>*/}
             </Box>
             <DescrGallery />
+            <Box>
+              <Box position="absolute"
+                   top="0"
+                   bottom="0"
+                   left="0"
+                   right="0"
+                   backgroundColor="rgba(0, 0, 0, 0.5)"
+                   zIndex="-1">
+                <SpiderThreeJs/>
+              </Box>
+            </Box>
+
             <Box
               justifyContent="center"
               alignItems="center"

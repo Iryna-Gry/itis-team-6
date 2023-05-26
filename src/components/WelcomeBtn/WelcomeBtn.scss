@@ -10,6 +10,7 @@
   transform: translateY(calc(var(--y, 0) * 1%)) scale(var(--scale));
   transition: transform 0.1s;
   position: relative;
+  margin-top: 350px;
 }
 
 .WelcomeButton:hover {
