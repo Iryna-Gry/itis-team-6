@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/itis-team-6/static/css/main.887b6c19.css",
-    "main.js": "/itis-team-6/static/js/main.fd883a8b.js",
+    "main.js": "/itis-team-6/static/js/main.99d14303.js",
     "static/media/AvengeanceHeroicAvengerNormal-Bz7d.ttf": "/itis-team-6/static/media/AvengeanceHeroicAvengerNormal-Bz7d.2805e15e170e8f94a349.ttf",
     "static/media/skeleton-2.webp": "/itis-team-6/static/media/skeleton-2.c49ea359d034bd1c810f.webp",
     "static/media/skeleton-1.webp": "/itis-team-6/static/media/skeleton-1.74b886b872be5bda06d8.webp",
@@ -13,10 +13,10 @@
     "static/media/marvel.svg": "/itis-team-6/static/media/marvel.f64c057bbe349be7d601d4046d296c6c.svg",
     "static/media/shield.svg": "/itis-team-6/static/media/shield.ef53c0a1e4889cdbf1ecb6c697769963.svg",
     "main.887b6c19.css.map": "/itis-team-6/static/css/main.887b6c19.css.map",
-    "main.fd883a8b.js.map": "/itis-team-6/static/js/main.fd883a8b.js.map"
+    "main.99d14303.js.map": "/itis-team-6/static/js/main.99d14303.js.map"
   },
   "entrypoints": [
     "static/css/main.887b6c19.css",
-    "static/js/main.fd883a8b.js"
+    "static/js/main.99d14303.js"
   ]
 }
