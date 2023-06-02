@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/itis-team-6/static/css/main.887b6c19.css",
-    "main.js": "/itis-team-6/static/js/main.99d14303.js",
-    "static/media/AvengeanceHeroicAvengerNormal-Bz7d.ttf": "/itis-team-6/static/media/AvengeanceHeroicAvengerNormal-Bz7d.2805e15e170e8f94a349.ttf",
-    "static/media/skeleton-2.webp": "/itis-team-6/static/media/skeleton-2.c49ea359d034bd1c810f.webp",
-    "static/media/skeleton-1.webp": "/itis-team-6/static/media/skeleton-1.74b886b872be5bda06d8.webp",
-    "static/media/skeleton-3.webp": "/itis-team-6/static/media/skeleton-3.a7eb0f8e6479e023e3ec.webp",
-    "static/media/metal-door.jpg": "/itis-team-6/static/media/metal-door.040746b6e02856218d2d.jpg",
-    "static/media/card-bg.png": "/itis-team-6/static/media/card-bg.6bd64e4c7706ae2a95e9.png",
-    "static/media/mec.svg": "/itis-team-6/static/media/mec.c773967d36d4fd429311.svg",
-    "index.html": "/itis-team-6/index.html",
-    "static/media/marvel.svg": "/itis-team-6/static/media/marvel.f64c057bbe349be7d601d4046d296c6c.svg",
-    "static/media/shield.svg": "/itis-team-6/static/media/shield.ef53c0a1e4889cdbf1ecb6c697769963.svg",
-    "main.887b6c19.css.map": "/itis-team-6/static/css/main.887b6c19.css.map",
-    "main.99d14303.js.map": "/itis-team-6/static/js/main.99d14303.js.map"
+    "main.css": "/marvel-game/static/css/main.b1f3975b.css",
+    "main.js": "/marvel-game/static/js/main.ed063802.js",
+    "static/media/AvengeanceHeroicAvengerNormal-Bz7d.ttf": "/marvel-game/static/media/AvengeanceHeroicAvengerNormal-Bz7d.2805e15e170e8f94a349.ttf",
+    "static/media/skeleton-2.webp": "/marvel-game/static/media/skeleton-2.c49ea359d034bd1c810f.webp",
+    "static/media/skeleton-1.webp": "/marvel-game/static/media/skeleton-1.74b886b872be5bda06d8.webp",
+    "static/media/skeleton-3.webp": "/marvel-game/static/media/skeleton-3.a7eb0f8e6479e023e3ec.webp",
+    "static/media/metal-door.jpg": "/marvel-game/static/media/metal-door.040746b6e02856218d2d.jpg",
+    "static/media/card-bg.png": "/marvel-game/static/media/card-bg.6bd64e4c7706ae2a95e9.png",
+    "static/media/mec.svg": "/marvel-game/static/media/mec.6d9ec995231c74545582.svg",
+    "index.html": "/marvel-game/index.html",
+    "static/media/marvel.svg": "/marvel-game/static/media/marvel.f64c057bbe349be7d601d4046d296c6c.svg",
+    "static/media/shield.svg": "/marvel-game/static/media/shield.c1e80ad75d82b3b154110fae3838506c.svg",
+    "main.b1f3975b.css.map": "/marvel-game/static/css/main.b1f3975b.css.map",
+    "main.ed063802.js.map": "/marvel-game/static/js/main.ed063802.js.map"
   },
   "entrypoints": [
-    "static/css/main.887b6c19.css",
-    "static/js/main.99d14303.js"
+    "static/css/main.b1f3975b.css",
+    "static/js/main.ed063802.js"
   ]
 }
