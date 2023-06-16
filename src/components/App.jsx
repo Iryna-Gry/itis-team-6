@@ -7,7 +7,7 @@ export const App = () => {
     document.location.pathname.includes('play' || 'teamplay') ||
       document.location.pathname.includes('statistics')
   );
-
+  // adds
   return (
     <>
       <Routes>
